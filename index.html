@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Username Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <!-- صفحة تسجيل الدخول -->
+    <div class="login-container" id="loginContainer">
+        <div class="container">
+            <h1>قم بأضافة الكود الذي حصلت عليه من المطور</h1>
+            <input type="password" id="loginCode" placeholder="اكتب هنا الكود">
+            <button onclick="login()">اادخول</button>
+            <p class="footer">تم تطوير الموقع بواسطة صوفي <a href="https://t.me/caser7" target="_blank">@caser7</a></p>
+        </div>
+    </div>
+    <!-- واجهة المستخدم الرئيسية -->
+    <div class="main-container" id="mainContainer" style="display:none;">
+        <div class="container">
+            <h1>TikTok Username Checker</h1>
+            <button onclick="startChecking()">بدأ الصيد</button>
+            <div class="output" id="output"></div>
+            <p class="footer">تم تطوير الموقع بواسطة صوفي <a href="https://t.me/caser7" target="_blank">@caser7</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
